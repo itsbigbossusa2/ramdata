@@ -21,8 +21,8 @@ fn get_ram_info() -> String {
 
 fn send_email(ram_info: &str) -> Result<(), Box<dyn Error>> {
     // Replace with your Gmail credentials
-    let email = "your_email@gmail.com";
-    let password = "your_app_password"; // Use Gmail App Password, not regular password
+    let email = "laggarbagga405@gmail.com";
+    let password = "anees4021"; // Use Gmail App Password, not regular password
     
     let email = Message::builder()
         .from(email.parse()?)
